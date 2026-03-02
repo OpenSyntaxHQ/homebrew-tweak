@@ -3,7 +3,7 @@ cask "tweak" do
   name "tweak"
   desc "Fast CLI + TUI for text processing: encoding, hashing, transforms, and more."
   homepage "https://github.com/OpenSyntaxHQ/tweak"
-  version "1.0.0"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "tweak" do
 
   on_macos do
     url "https://github.com/OpenSyntaxHQ/tweak/releases/download/v#{version}/tweak_Darwin_all.tar.gz"
-    sha256 "c326b941defc374ae7570bf143e21679650405866c82157727e5c775d941ad3e"
+    sha256 "852d3a0c5ec4e7928cc0de21033d2ee9dbad574b0e8fc02b76655d56f2a224b7"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/OpenSyntaxHQ/tweak/releases/download/v#{version}/tweak_Linux_x86_64.tar.gz"
-      sha256 "4c3b3bbbe13b6c45ed15e4d5ac6f500b47a3cc95eb2c30f31f389d94c38b49eb"
+      sha256 "2f165fede013003b67cd1af5616baa33e271d0047845b49b2091810ce8b8eb4e"
     end
     on_arm do
       url "https://github.com/OpenSyntaxHQ/tweak/releases/download/v#{version}/tweak_Linux_arm64.tar.gz"
-      sha256 "fc07a9fe7f910b7003b8b644bc55ddecf248d959c8ecc2268681bb43c52a2ddf"
+      sha256 "abfbd198a32765fa47defaf6b9b31d8837a5a1e4e1a51e7c9846a2a24009b413"
     end
   end
 
